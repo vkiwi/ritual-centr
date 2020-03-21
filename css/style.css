@@ -2,6 +2,7 @@
 body {
   background-color: #87472C;
   margin: 0;
+  font-family: Roboto;
 }
 
 .container {
@@ -17,6 +18,12 @@ body {
   height: 355px;
 }
 
+.header-background {
+  background: rgba(247, 172, 115, 0.14);
+  height: 100%;
+  width: 100%;
+}
+
 .header-address {
   font-size: 29px;
   float: right;
@@ -28,7 +35,7 @@ body {
   -webkit-text-stroke: 3px #000000;
   text-shadow: 10px 4px 5px rgba(255, 255, 255, 0.81);
   font-weight: bold;
-  font-family: Roboto;
+  font-family: Roboto-bold;
   text-transform: uppercase;
 }
 
@@ -52,6 +59,11 @@ body {
 .header-phone_callMe {
   font-size: 26px;
   line-height: 2;
+  color: white;
+}
+
+.header-phone_callMe:hover {
+  color: #ffc800;
 }
 
 .header-left {
@@ -84,11 +96,53 @@ body {
   display: -ms-inline-flexbox;
   display: inline-flex;
   vertical-align: middle;
+  position: relative;
+}
+
+.navigation_a:hover {
+  color: #ffc800;
+}
+
+.navigation_a:after {
+  display: block;
+  content: "";
+  height: 2px;
+  width: 0%;
+  background-color: #ffc800;
+  -webkit-transition: width .3s ease-in;
+  transition: width .3s ease-in;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.navigation_a:hover:after {
+  width: 100%;
+}
+
+.navigation_a:focus:after {
+  width: 100%;
 }
 
 .flowers {
   background: grey url("../images/flowers.jpg") no-repeat;
   background-size: 100%;
   height: 560px;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/roboto/Roboto-Regular.woff2") format("woff2"), url("../fonts/roboto/Roboto-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-bold';
+  src: url("../fonts/roboto-bold/Roboto-Bold.woff2") format("woff2"), url("../fonts/roboto-bold/Roboto-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
 }
 /*# sourceMappingURL=style.css.map */

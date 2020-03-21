@@ -2,13 +2,18 @@ body
   background-color: $main-color
   margin: 0
 .container
-  max-width: 1440px
+  max-width: 1280px
   margin-left: auto
   margin-right: auto
-  background: grey url('../images/sky.jpg')
+
+/*ХЕДЕР*/
 .header
+  background: grey url('../images/sky.jpg') no-repeat
+  background-size: 100%
+  height: 355px
   &-address
     font-size: 29px
+    float: right
   &-title
     font-size: 76px
     color: #FF0000
@@ -23,3 +28,37 @@ body
     font-style: italic
   &-phone
     display: block
+    font-size: 35px
+    text-decoration: none
+    color: black
+    &_dayNight
+      font-size: 25px
+    &_callMe
+      font-size: 26px
+      line-height: 2
+  &-left
+    padding-top: 85px
+  &-right
+    float: right
+    margin-top: -115px
+.line
+  width: 100%
+  border: 1px solid black
+
+  /*НАВИГАЦИЯ*/
+.navigation
+  font-size: 21px
+  margin-top: 30px
+  text-align: center
+  margin-bottom: 30px
+  &_a
+    text-decoration: none
+    color: white
+    margin-right: 40px
+    display: inline-flex
+    vertical-align: middle
+
+.flowers
+  background: grey url('../images/flowers.jpg') no-repeat
+  background-size: 100%
+  height: 560px

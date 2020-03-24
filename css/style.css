@@ -132,6 +132,50 @@ body {
   height: 560px;
 }
 
+.general {
+  height: 2400px;
+  background: url("../images/sky.jpg") no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+}
+
+.about-h {
+  margin-top: 0px;
+  padding-top: 65px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.about-p-b {
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+.about-more {
+  text-align: center;
+}
+
+.about-more-span {
+  font-size: 28px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.video {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.video-v {
+  width: 70%;
+}
+
+p {
+  text-indent: 20px;
+  text-align: justify;
+  font-size: 23px;
+}
+
 @font-face {
   font-family: 'Roboto';
   src: url("../fonts/roboto/Roboto-Regular.woff2") format("woff2"), url("../fonts/roboto/Roboto-Regular.woff") format("woff");

@@ -120,6 +120,7 @@
           </ul> <!-- cd-testimonials -->
         
           <a href="#0" class="cd-see-all">Читать все</a>
+          <a href="#0" class="cd-add" id="button">Добавить отзыв</a>
         </div> <!-- cd-testimonials-wrapper -->
         
         <div class="cd-testimonials-all">
@@ -179,6 +180,29 @@
     </div>
 
   </main>
+
+  <div class="modal" id="modal">
+    <div class="modal-dialog request modal-dialog__request">
+      <button class="modal-dialog__close" id="close">&times;</button>
+      <h4 class="modal-dialog__title">Пожалуйста, напишите свой отзыв о нас и мы добавим его на сайт в ближайшее время.</h4>
+      
+      <!-- <div class="request modal-dialog__request"> -->
+        <h2 class="request__header">оставьте отзыв</h2>
+        <form action="mail.php" method="POST" id="brif-form-modal">
+          <div class="brif-form">
+            <input type="text" name="user_name" class="brif-input" placeholder="Ваше имя">
+          </div>
+            <div class="brif-form">
+              <textarea class="brif-input-review" required name="user_message" type="text" placeholder="Ваш отзыв"></textarea>
+            </div>
+            
+            <button class="button request__button">отправить отзыв</button>
+          </form>
+        <!-- </div> -->
+
+    </div>
+    <!-- /.modal-dialog -->
+  </div>
 
 <script src="js/jquery-2.1.1.js"></script>
 <script src="js/masonry.pkgd.min.js"></script>

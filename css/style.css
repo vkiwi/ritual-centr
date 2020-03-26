@@ -20,7 +20,7 @@ body {
 
 .header-background {
   background: rgba(247, 172, 115, 0.14);
-  height: 100%;
+  height: 150%;
   width: 100%;
 }
 
@@ -139,6 +139,12 @@ body {
   background-position: center;
 }
 
+.general-background {
+  background: rgba(247, 172, 115, 0.14);
+  height: 100%;
+  width: 100%;
+}
+
 .about-h {
   margin-top: 0px;
   padding-top: 65px;
@@ -149,6 +155,7 @@ body {
 .about-p-b {
   text-decoration: underline;
   font-size: 25px;
+  font-weight: bold;
 }
 
 .about-more {
@@ -161,16 +168,16 @@ body {
   color: black;
 }
 
-.video {
+.video-block {
   text-align: center;
   margin-top: 50px;
 }
 
-.video-v {
+.video-block-v {
   width: 70%;
 }
 
-p {
+.about-p {
   text-indent: 20px;
   text-align: justify;
   font-size: 23px;

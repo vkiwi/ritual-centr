@@ -273,10 +273,10 @@ Main components
   transition: color, 0.2s;
 }
 .cd-add:hover{
-  color: #79b6e4;
+  color: #ffc800;
 }
 .no-touch .cd-see-all:hover {
-  color: #79b6e4;
+  color: #ffc800;
 }
 
 .cd-testimonials-all {

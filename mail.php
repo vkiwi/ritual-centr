@@ -28,7 +28,7 @@ $mail->addAddress('viktor.kochegarov@gmail.com');     // Кому будет у�
 //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
 $mail->isHTML(true);                                  // Set email format to HTML
 
-$mail->Subject = 'Заявка с моего сайта-портфолио';
+$mail->Subject = 'Заявка с сайта Ритуал-центр';
 $mail->Body    = '' .$name . ' оставил заявку, его телефон ' .$phone. '<br>Сообщение: ' .$message;
 $mail->AltBody = '';
 

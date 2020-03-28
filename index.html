@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,9 +11,10 @@
   <script src="js/modernizr.js"></script>
   <link media="screen" href="demo/styles/demo.css" type="text/css" rel="stylesheet" />
 </head>
+
 <body>
   <!--ХЕДЕР-->
-  <header class="header">
+  <header id="header" class="header">
     <div class="header-background">
       <div class="container">
         <span class="header-address">Владимир, ул. Б.Нижегородская д.34</span>
@@ -21,26 +23,26 @@
           <span class="header-title">ритуал-центр</span>
           <span class="header-tagline">Помогаем делом в трудную минуту</span>
         </div>
-        <div class="header-right"> 
+        <div class="header-right">
           <a class="header-phone" href="tel:+7 920 926-09-57">+7 920 926-09-57</a>
           <a class="header-phone" href="tel:+7 (4922) 37-01-02">+7 (4922) 37-01-02</a>
           <span class="header-phone header-phone_dayNight">(круглосуточно)</span>
-          <a href="" class="header-phone_callMe">перезвоните мне</a>
+          <a href="#callMe" class="header-phone_callMe">перезвоните мне</a>
         </div>
       </div>
     </div>
   </header>
 
   <main>
-  <!--НАВИГАЦИЯ-->
+    <!--НАВИГАЦИЯ-->
     <div class="container">
-      <nav class="navigation">
+      <nav class="navigation" id="menu">
         <a href="" class="navigation_a">Главная</a>
         <a href="" class="navigation_a">Организация<br>похорон</a>
         <a href="" class="navigation_a">Ритуальные<br>принадлежности</a>
         <a href="" class="navigation_a">Благоустройство</a>
         <a href="" class="navigation_a">Наши работы</a>
-        <a href="" class="navigation_a">Отзывы</a>
+        <a href="#reviews" class="navigation_a">Отзывы</a>
         <a href="" class="navigation_a">Вопросы<br>и ответы</a>
       </nav>
     </div>
@@ -52,11 +54,27 @@
         <div class="container">
           <div class="about">
             <h1 class="about-h">О компании</h1>
-            <div class="about-p"><p>Рано или поздно каждый человек вынужден обратиться в ритуальную службу. Статистические данные свидетельствуют, что ежегодно в России умирает порядка 2,5 млн. человек . 50 – 60 млн. граждан участвуют в их похоронах. Печальная обязанность проводов своих близких в последний путь была и всегда будет в числе обязанностей каждого человека. Практически все население страны ежегодно посещает кладбище что бы почтить память умерших родных и близких им людей.</p> 
-              <p>Столкнувшись с ситуацией ухода из жизни близких , остро переживая горе потери , люди, в своем большинстве , оказываются беспомощными в организации необходимых мероприятий по проводам усопших. А как раз здесь каждый час , каждый этап являются максимально важными в отношении соблюдения всех ритуальных тонкостей. Поэтому помощь работника ритуальной службы способного оказать профессиональную и человеческую поддержку горюющим огромна.</p>
-              <p>Салон ритуальных услуг «Ритуал центр» готов взять на себя все работы по организации похорон. Мы поможем достойно проводить в последний путь близкого Вам человека. Что делать, когда это случилось?</p>
-              <p>Первое, позвонить в «Ритуал центр» по номеру <b class="about-p-b"><a href="tel:+79209260957">8-920-926-09-57</a> или <a href="tel:+74922370102">(4922)37-01-02</a></b>, это круглосуточные номера телефонов, поэтому звонить можно в любое время суток. Будьте уверены на Ваш звонок обязательно ответят!</p>
-              <p>Можно позвонить в «Скорую» или Полицию, но тогда на пороге Вашего дома окажется агент другой ритуальной службы. Этот человек пришел по наводке продажных сотрудников, имеющих доступ к информации об умерших. За такую информацию «не чистые на руку» агенты платят солидное вознаграждение своим информаторам, которое включат Вам в стоимость услуг.</p>
+            <div class="about-p">
+              <p>Рано или поздно каждый человек вынужден обратиться в ритуальную службу. Статистические данные
+                свидетельствуют, что ежегодно в России умирает порядка 2,5 млн. человек . 50 – 60 млн. граждан участвуют
+                в их похоронах. Печальная обязанность проводов своих близких в последний путь была и всегда будет в
+                числе обязанностей каждого человека. Практически все население страны ежегодно посещает кладбище что бы
+                почтить память умерших родных и близких им людей.</p>
+              <p>Столкнувшись с ситуацией ухода из жизни близких , остро переживая горе потери , люди, в своем
+                большинстве , оказываются беспомощными в организации необходимых мероприятий по проводам усопших. А как
+                раз здесь каждый час , каждый этап являются максимально важными в отношении соблюдения всех ритуальных
+                тонкостей. Поэтому помощь работника ритуальной службы способного оказать профессиональную и человеческую
+                поддержку горюющим огромна.</p>
+              <p>Салон ритуальных услуг «Ритуал центр» готов взять на себя все работы по организации похорон. Мы поможем
+                достойно проводить в последний путь близкого Вам человека. Что делать, когда это случилось?</p>
+              <p>Первое, позвонить в «Ритуал центр» по номеру <b class="about-p-b"><a
+                    href="tel:+79209260957">8-920-926-09-57</a> или <a href="tel:+74922370102">(4922)37-01-02</a></b>,
+                это круглосуточные номера телефонов, поэтому звонить можно в любое время суток. Будьте уверены на Ваш
+                звонок обязательно ответят!</p>
+              <p>Можно позвонить в «Скорую» или Полицию, но тогда на пороге Вашего дома окажется агент другой ритуальной
+                службы. Этот человек пришел по наводке продажных сотрудников, имеющих доступ к информации об умерших. За
+                такую информацию «не чистые на руку» агенты платят солидное вознаграждение своим информаторам, которое
+                включат Вам в стоимость услуг.</p>
             </div>
             <div class="about-more">
               <span class="about-more-span"><a href="#" class="about-more-span">подробнее</a> >>></span>
@@ -65,128 +83,143 @@
               <video src="video/file.mp4" class="video-block-v" controls="controls"></video>
             </div>
           </div>
-  
-          <div class="reviews">
-        <h1 class="about-h">Отзывы</h1>
-        <div class="cd-testimonials-wrapper cd-container">
-          <ul class="cd-testimonials">
-            <li>
-              <p>
-                Выражаю огромную благодарность агенту Татьяне. Очень отзывчива, все расскажет, все закажет, все документы оформит. И очень оперативно.и все за адекватные цены.</p>
-              <div class="cd-author">
-                <ul class="cd-author-info">
-                  <li>Ольга</li>
-                  <li></li>
-                </ul>
-              </div>
-            </li>
-  
-            <li>
-              <p>
-                Выражаем благодарность Сергею за душевное отношение к людям, понимание и профессионализм. Сервис на высшем уровне. Цена услуг озвучена сразу и НЕ взлетела до 60т. как в других т.н. "фирмах" ритуальных услуг.
-              </p>
-              <div class="cd-author">
-                <ul class="cd-author-info">
-                  <li>Яна</li>
-                  <li></li>
-                </ul>
-              </div>
-            </li>
-  
-            <li>
-              <p>
-                Большое спасибо Вашей ритуальной службе, за помощь в организации похорон моего родственника. Ваш ритуальный агент взял на себя всю организацию прощания, помог собрать документы, заказать отпевание и участок на кладбище. Так же через ритуального агента мы приобрели ритуальные принадлежности и заказали катафальный транспорт. 
-              </p>
-              <div class="cd-author">
-                <ul class="cd-author-info">
-                  <li>Евгений</li>
-                  <li></li>
-                </ul>
-              </div>
-            </li>
-  
-            <li>
-              <p>
-                Сервис на отлично. Относятся с душой и пониманием. И не дорого.
-              </p>
-              <div class="cd-author">
-                <ul class="cd-author-info">
-                  <li>Ольга</li>
-                  <li></li>
-                </ul>
-              </div>
-            </li>
-  
-          </ul> <!-- cd-testimonials -->
-        
-          <a href="#0" class="cd-see-all">Читать все</a>
-          <a href="#0" class="cd-add" id="button">Добавить отзыв</a>
-        </div> <!-- cd-testimonials-wrapper -->
-        
-        <div class="cd-testimonials-all">
-          <div class="cd-testimonials-all-wrapper">
-            <ul>
-              <li class="cd-testimonials-item">
-                <p>Выражаю огромную благодарность агенту Татьяне. Очень отзывчива, все расскажет, все закажет, все документы оформит. И очень оперативно.и все за адекватные цены. </p>
-                <div class="cd-author">
-                  <ul class="cd-author-info">
-                    <li>Ольга</li>
+
+          <div class="reviews" id="reviews">
+            <h1 class="about-h">Отзывы</h1>
+            <div class="cd-testimonials-wrapper cd-container">
+              <ul class="cd-testimonials">
+                <li>
+                  <p>
+                    Выражаю огромную благодарность агенту Татьяне. Очень отзывчива, все расскажет, все закажет, все
+                    документы оформит. И очень оперативно.и все за адекватные цены.</p>
+                  <div class="cd-author">
+                    <ul class="cd-author-info">
+                      <li>Ольга</li>
                       <li></li>
-                  </ul>
-                </div> <!-- cd-author -->
-              </li>
-              
-              <li class="cd-testimonials-item">
-                <p>
-                  Выражаем благодарность Сергею за душевное отношение к людям, понимание и профессионализм. Сервис на высшем уровне. Цена услуг озвучена сразу и НЕ взлетела до 60т. как в других т.н. "фирмах" ритуальных услуг. </p>
-                <div class="cd-author">
-                  <ul class="cd-author-info">
-                    <li>Яна</li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li>
+                  <p>
+                    Выражаем благодарность Сергею за душевное отношение к людям, понимание и профессионализм. Сервис на
+                    высшем уровне. Цена услуг озвучена сразу и НЕ взлетела до 60т. как в других т.н. "фирмах" ритуальных
+                    услуг.
+                  </p>
+                  <div class="cd-author">
+                    <ul class="cd-author-info">
+                      <li>Яна</li>
                       <li></li>
-                  </ul>
-                </div> <!-- cd-author -->
-              </li>
-  
-              <li class="cd-testimonials-item">
-                <p>Большое спасибо Вашей ритуальной службе, за помощь в организации похорон моего родственника. Ваш ритуальный агент взял на себя всю организацию прощания, помог собрать документы, заказать отпевание и участок на кладбище. Так же через ритуального агента мы приобрели ритуальные принадлежности и заказали катафальный транспорт. </p>
-                <div class="cd-author">
-                  <ul class="cd-author-info">
-                    <li>Евгений</li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li>
+                  <p>
+                    Большое спасибо Вашей ритуальной службе, за помощь в организации похорон моего родственника. Ваш
+                    ритуальный агент взял на себя всю организацию прощания, помог собрать документы, заказать отпевание
+                    и участок на кладбище. Так же через ритуального агента мы приобрели ритуальные принадлежности и
+                    заказали катафальный транспорт.
+                  </p>
+                  <div class="cd-author">
+                    <ul class="cd-author-info">
+                      <li>Евгений</li>
                       <li></li>
-                  </ul>
-                </div> <!-- cd-author -->
-              </li>
-  
-              <li class="cd-testimonials-item">
-                <p>Сервис на отлично. Относятся с душой и пониманием. И не дорого. </p>
-                <div class="cd-author">
-                  <ul class="cd-author-info">
-                    <li>Ольга</li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li>
+                  <p>
+                    Сервис на отлично. Относятся с душой и пониманием. И не дорого.
+                  </p>
+                  <div class="cd-author">
+                    <ul class="cd-author-info">
+                      <li>Ольга</li>
                       <li></li>
-                  </ul>
-                </div> <!-- cd-author -->
-              </li>
-        
-  
-            </ul>
-          </div>	<!-- cd-testimonials-all-wrapper -->
-        
-          <a href="#0" class="close-btn">Close</a>
-        </div> <!-- cd-testimonials-all -->
+                    </ul>
+                  </div>
+                </li>
+
+              </ul> <!-- cd-testimonials -->
+
+              <a href="#0" class="cd-see-all">Читать все</a>
+              <a href="#0" class="cd-add" id="button">Добавить отзыв</a>
+            </div> <!-- cd-testimonials-wrapper -->
+
+            <div class="cd-testimonials-all">
+              <div class="cd-testimonials-all-wrapper">
+                <ul>
+                  <li class="cd-testimonials-item">
+                    <p>Выражаю огромную благодарность агенту Татьяне. Очень отзывчива, все расскажет, все закажет, все
+                      документы оформит. И очень оперативно.и все за адекватные цены. </p>
+                    <div class="cd-author">
+                      <ul class="cd-author-info">
+                        <li>Ольга</li>
+                        <li></li>
+                      </ul>
+                    </div> <!-- cd-author -->
+                  </li>
+
+                  <li class="cd-testimonials-item">
+                    <p>
+                      Выражаем благодарность Сергею за душевное отношение к людям, понимание и профессионализм. Сервис
+                      на высшем уровне. Цена услуг озвучена сразу и НЕ взлетела до 60т. как в других т.н. "фирмах"
+                      ритуальных услуг. </p>
+                    <div class="cd-author">
+                      <ul class="cd-author-info">
+                        <li>Яна</li>
+                        <li></li>
+                      </ul>
+                    </div> <!-- cd-author -->
+                  </li>
+
+                  <li class="cd-testimonials-item">
+                    <p>Большое спасибо Вашей ритуальной службе, за помощь в организации похорон моего родственника. Ваш
+                      ритуальный агент взял на себя всю организацию прощания, помог собрать документы, заказать
+                      отпевание и участок на кладбище. Так же через ритуального агента мы приобрели ритуальные
+                      принадлежности и заказали катафальный транспорт. </p>
+                    <div class="cd-author">
+                      <ul class="cd-author-info">
+                        <li>Евгений</li>
+                        <li></li>
+                      </ul>
+                    </div> <!-- cd-author -->
+                  </li>
+
+                  <li class="cd-testimonials-item">
+                    <p>Сервис на отлично. Относятся с душой и пониманием. И не дорого. </p>
+                    <div class="cd-author">
+                      <ul class="cd-author-info">
+                        <li>Ольга</li>
+                        <li></li>
+                      </ul>
+                    </div> <!-- cd-author -->
+                  </li>
+
+
+                </ul>
+              </div> <!-- cd-testimonials-all-wrapper -->
+
+              <a href="#0" class="close-btn">Close</a>
+            </div> <!-- cd-testimonials-all -->
           </div>
-  
-          <div class="callMe">
-            <h1 class="about-h callMe-h">Заказать звонок</h1>
-            <div class="callMe-wrapper">
-              <div class="left">
-                <input type="text" class="callMe-leftInput" placeholder="Ваше имя">
-                <input type="text" class="callMe-leftInput" placeholder="Ваш телефон">
+
+          <div class="callMe" id="callMe">
+            <form action="mail.php" method="POST" id="callform">
+              <h1 class="about-h callMe-h">Заказать звонок</h1>
+              <div class="callMe-wrapper">
+                <div class="left">
+                  <input type="text" class="callMe-leftInput" placeholder="Ваше имя" required name="user_name">
+                  <input type="tel" class="callMe-leftInput phone" placeholder="Ваш телефон" required name="user_phone">
+                </div>
+                <div class="right">
+                  <textarea name="user_message" id="" cols="30" rows="10" class="callMe-textarea"
+                    placeholder="Сообщение (не обязательно)"></textarea>
+                </div>
               </div>
-              <div class="right">
-                <textarea name="" id="" cols="30" rows="10" class="callMe-textarea" placeholder="Сообщение (не обязательно)"></textarea>
-              </div>
-            </div>
-            <button class="callMe-button">Отправить</button>
+              <button class="callMe-button">Отправить</button>
+            </form>
           </div>
 
         </div>
@@ -197,7 +230,9 @@
 
   <footer>
     <div class="map">
-      <script class="map-m" type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A7cc229803eddb2bd7a76724689b30d2b71dfb2074dd87195a1fd352bd6af04f6&amp;width=100%&amp;height=520&amp;lang=ru_RU&amp;scroll=false"></script>
+      <script class="map-m" type="text/javascript" charset="utf-8" async
+        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A7cc229803eddb2bd7a76724689b30d2b71dfb2074dd87195a1fd352bd6af04f6&amp;width=100%&amp;height=520&amp;lang=ru_RU&amp;scroll=false">
+      </script>
     </div>
     <div class="footer">
       <div class="footer-background">
@@ -209,7 +244,7 @@
           <span class="footer-left-span-i">По просьбе можем открыть салон в любое время</span>
         </div>
         <div class="footer-socials">
-          <a href="" class="footer-socials-a"><img src="images/vk.png" alt=""></a>
+          <a href="https://vk.com/mramor33" class="footer-socials-a"><img src="images/vk.png" alt=""></a>
           <a href=""><img src="images/insta.png" alt=""></a>
         </div>
         <div class="footer-right">
@@ -219,39 +254,46 @@
           <a href="tel:+74922370102">+7 (4922) 37-01-02</a><br>
           <span class="footer-left-span-i">звоните в любое время</span>
         </div>
-        
+
       </div>
-    
-        <div class="footer-develop">Разработка сайта<a class="footer-develop-a" href="viktor33.ru">Viktor33</a></div>
-   
+
+      <div class="footer-develop">Разработка сайта <a class="footer-develop-a" href="https://viktor33.ru">Viktor33</a>
+      </div>
+
     </div>
-    
+
   </footer>
 
+  <!-- МОДАЛЬНОЕ ОКНО ДЛЯ ОТЗЫВА -->
   <div class="modal" id="modal">
     <div class="modal-dialog request modal-dialog__request">
       <button class="modal-dialog__close" id="close">&times;</button>
-      <h4 class="modal-dialog__title">Пожалуйста, напишите свой отзыв о нас и мы добавим его на сайт в ближайшее время.</h4>
+      <h4 class="modal-dialog__title">Пожалуйста, напишите свой отзыв о нас и мы добавим его на сайт в ближайшее время.
+      </h4>
       <!-- <div class="request modal-dialog__request"> -->
-        <h2 class="request__header">оставьте отзыв</h2>
-        <form action="mail.php" method="POST" id="brif-form-modal">
-          <div class="brif-form">
-            <input type="text" name="user_name" class="brif-input" placeholder="Ваше имя">
-          </div>
-            <div class="brif-form">
-              <textarea class="brif-input-review" required name="user_message" type="text" placeholder="Ваш отзыв"></textarea>
-            </div>
-            <button class="callMe-button">Отправить</button>
-          </form>
-        <!-- </div> -->
+      <h2 class="request__header">оставьте отзыв</h2>
+      <form action="mail.php" method="POST" id="brif-form-modal">
+        <div class="brif-form">
+          <input type="text" name="user_name" class="brif-input" placeholder="Ваше имя" required>
+        </div>
+        <div class="brif-form">
+          <textarea class="brif-input-review" required name="user_message" type="text"
+            placeholder="Ваш отзыв"></textarea>
+        </div>
+        <button class="callMe-button">Отправить</button>
+      </form>
+      <!-- </div> -->
     </div>
     <!-- /.modal-dialog -->
   </div>
 
-<script src="js/jquery-2.1.1.js"></script>
-<script src="js/masonry.pkgd.min.js"></script>
-<script src="js/jquery.flexslider-min.js"></script>
-<script src="js/main.js"></script>
+  <script src="js/jquery-2.1.1.js"></script>
+  <script src="js/masonry.pkgd.min.js"></script>
+  <script src="js/jquery.flexslider-min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/jquery.maskedinput.min.js"></script>
 
 </body>
+
 </html>

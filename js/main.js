@@ -2,6 +2,16 @@ var button = document.querySelector('#button');
 var modal = document.querySelector('#modal');
 var close = document.querySelector('#close');
 
+$(document).ready(function(){
+	$(window).scroll(function(){
+		if($(window).scrollTop()>120){
+			$('#top').fadeIn(900);
+		}else{
+			$('#top').fadeOut(700);
+		}
+	});
+});
+
 button.addEventListener('click', function(){
   modal.classList.add('modal_active');
 });

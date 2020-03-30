@@ -4,7 +4,7 @@ var close = document.querySelector('#close');
 
 $(document).ready(function(){
 	$(window).scroll(function(){
-		if($(window).scrollTop()>120){
+		if($(window).scrollTop()>0){
 			$('#top').fadeIn(900);
 		}else{
 			$('#top').fadeOut(700);

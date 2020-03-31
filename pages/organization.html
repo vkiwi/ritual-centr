@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="../css/reset.css">
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../css/slider.css">
+  <link rel="stylesheet" href="../css/menu.css">
   <link rel="icon" href="../images/icon.png">
   <script src="../js/modernizr.js"></script>
   <link media="screen" href="../demo/styles/demo.css" type="text/css" rel="stylesheet" />
@@ -44,13 +45,31 @@
     <!--НАВИГАЦИЯ-->
     <div class="container">
       <nav class="navigation">
-        <a href="../index.html" class="navigation_a">Главная</a>
-        <a href="" class="navigation_a">Организация<br>похорон</a>
-        <a href="" class="navigation_a">Ритуальные<br>принадлежности</a>
-        <a href="" class="navigation_a">Благоустройство</a>
-        <a href="" class="navigation_a">Наши работы</a>
-        <a href="../index.html#reviews" class="navigation_a">Отзывы</a>
-        <a href="" class="navigation_a">Вопросы<br>и ответы</a>
+        <ul>
+        <li class="navigation-li"><a href="../index.html" class="navigation_a">Главная</a></li>
+        <li class="navigation-li"><a href="more.html" class="navigation_a">О нас</a></li>
+        <li class="navigation-li"><a href="" class="navigation_a">Ритуальные<br>принадлежности</a>
+          <ul class="submenu">
+            <li class="navigation-sub"><a href="" class="navigation_a">Венки</a></li>
+            <li class="navigation-sub"><a href="" class="navigation_a">Гробы</a></li>
+            <li class="navigation-sub"><a href="" class="navigation_a">Кресты</a></li>
+            <li class="navigation-sub"><a href="" class="navigation_a">Текстиль</a></li>
+          </ul>
+        </li>
+        <li class="navigation-li"><a href="" class="navigation_a">Благоустройство</a>
+          <ul class="submenu submenu-good">
+            <li class="navigation-sub"><a href="" class="navigation_a">Памятники</a></li>
+            <li class="navigation-sub"><a href="" class="navigation_a">Ограды</a></li>
+            <li class="navigation-sub"><a href="" class="navigation_a">Лавки</a></li>
+            <li class="navigation-sub"><a href="" class="navigation_a">Столы</a></li>
+          </ul>
+        </li>
+        <li class="navigation-li"><a href="" class="navigation_a">Наши работы</a></li>
+        <nav id="menu">
+        <li class="navigation-li"><a href="#reviews" class="navigation_a">Отзывы</a></li>
+        </nav>
+        <li class="navigation-li"><a href="" class="navigation_a">Вопросы<br>и ответы</a></li>
+        </ul>
       </nav>
     </div>
 

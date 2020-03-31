@@ -1,0 +1,9 @@
+.navigation .submenu {
+  display: none;
+  background: #b19891;
+  
+}
+
+.navigation ul li:hover .submenu {
+  display: block;
+}

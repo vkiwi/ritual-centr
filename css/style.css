@@ -1157,12 +1157,6 @@ a {
   padding-top: 30px;
 }
 
-p {
-  text-align: justify;
-  font-size: 22px;
-  text-indent: 20px;
-}
-
 .h2 {
   padding-top: 35px;
   margin-bottom: 40px;
@@ -1182,8 +1176,62 @@ p {
   color: #ffc800;
 }
 
-#gallery {
+#gallery, #gallery2 {
   margin-left: auto;
   margin-right: auto;
+}
+
+.galleryImage {
+  width: auto;
+  height: 100%;
+  top: 0;
+}
+
+.ug-item-wrapper {
+  left: 36%;
+}
+
+.generealWreaths {
+  height: 3800px;
+}
+
+.wreaths_size {
+  text-align: center;
+}
+
+.h2_centr {
+  text-align: center;
+}
+
+.h2_big {
+  font-size: 24px;
+}
+
+.h1 {
+  margin-top: 0px;
+  padding-top: 65px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  padding-top: 14px;
+  margin-bottom: 8px;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+p {
+  text-align: justify;
+  font-size: 20px;
+  text-indent: 20px;
+}
+
+b {
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */

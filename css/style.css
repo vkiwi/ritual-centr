@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-  background-color: #87472C;
+  background-color: #6d827d;
   margin: 0;
   font-family: Roboto;
 }
@@ -264,6 +264,8 @@ body {
 }
 
 .map {
+  width: 100%;
+  position: relative;
   width: 100%;
 }
 
@@ -696,7 +698,7 @@ a {
 
 @media (max-width: 555px) {
   .general {
-    height: 2550px;
+    height: 2300px;
   }
 }
 
@@ -726,7 +728,7 @@ a {
 
 @media (max-width: 480px) {
   .general {
-    height: 2600px;
+    height: 2300px;
   }
 }
 
@@ -857,19 +859,19 @@ a {
 
 @media (min-width: 330px) and (max-width: 460px) {
   .general {
-    height: 2075px;
+    height: 2250px;
   }
 }
 
 @media (min-width: 360px) and (max-width: 460px) {
   .general {
-    height: 2000px;
+    height: 2150px;
   }
 }
 
 @media (min-width: 400px) and (max-width: 460px) {
   .general {
-    height: 1870px;
+    height: 2050px;
   }
 }
 
@@ -955,7 +957,7 @@ a {
   text-transform: uppercase;
   width: 70%;
   height: 58px;
-  background-color: #87472C;
+  background-color: #6d827d;
   margin-top: 20px;
 }
 
@@ -1011,7 +1013,7 @@ a {
 }
 
 .brif-input-review {
-  width: 300px;
+  width: 80%;
   height: 125px;
   resize: none;
   font-size: 18px;
@@ -1207,6 +1209,102 @@ a {
   font-size: 24px;
 }
 
+@media (max-width: 1410px) {
+  .generealWreaths {
+    height: 4200px;
+  }
+}
+
+@media (max-width: 1195px) {
+  .generealWreaths {
+    height: 4600px;
+  }
+}
+
+@media (max-width: 1070px) {
+  .generealWreaths {
+    height: 4800px;
+  }
+}
+
+@media (max-width: 800px) {
+  .generealWreaths {
+    height: 5000px;
+  }
+}
+
+@media (max-width: 700px) {
+  .generealWreaths {
+    height: 5200px;
+  }
+}
+
+@media (max-width: 640px) {
+  .generealWreaths {
+    height: 4600px;
+  }
+  .map {
+    display: none;
+  }
+  .h2_centr, .wreaths_size {
+    display: none;
+  }
+  p {
+    font-size: 18px;
+  }
+  .navigation {
+    height: 116px;
+  }
+}
+
+@media (max-width: 570px) {
+  .generealWreaths {
+    height: 5000px;
+  }
+}
+
+@media (max-width: 480px) {
+  .generealWreaths {
+    height: 5300px;
+  }
+}
+
+@media (max-width: 460px) {
+  .navigation {
+    height: 220px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 446px) {
+  .generealWreaths {
+    height: 6790px;
+  }
+}
+
+@media (min-width: 340px) and (max-width: 446px) {
+  .generealWreaths {
+    height: 6400px;
+  }
+}
+
+@media (min-width: 370px) and (max-width: 446px) {
+  .generealWreaths {
+    height: 6050px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 446px) {
+  .generealWreaths {
+    height: 5730px;
+  }
+}
+
+@media (min-width: 415px) and (max-width: 446px) {
+  .generealWreaths {
+    height: 5560px;
+  }
+}
+
 .h1 {
   margin-top: 0px;
   padding-top: 65px;
@@ -1233,5 +1331,44 @@ p {
 
 b {
   font-weight: bold;
+}
+
+.coffins_image {
+  text-align: center;
+  margin: 15px;
+}
+
+.generalCoffins {
+  height: 1575px;
+}
+
+@media (max-width: 1400px) {
+  .generalCoffins {
+    height: 1800px;
+  }
+}
+
+@media (max-width: 890px) {
+  .generalCoffins {
+    height: 1900px;
+  }
+}
+
+@media (max-width: 890px) {
+  .coffins_image {
+    display: none;
+  }
+}
+
+@media (max-width: 510px) {
+  .generalCoffins {
+    height: 2100px;
+  }
+}
+
+@media (max-width: 440px) {
+  .generalCoffins {
+    height: 2500px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

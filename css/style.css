@@ -1205,10 +1205,6 @@ a {
   text-align: center;
 }
 
-.h2_big {
-  font-size: 24px;
-}
-
 @media (max-width: 1410px) {
   .generealWreaths {
     height: 4200px;
@@ -1320,9 +1316,16 @@ h1 {
 h2 {
   padding-top: 30px;
   margin-bottom: 8px;
-  font-size: 21px;
+  font-size: 23px;
   font-weight: bold;
   text-align: center;
+}
+
+h3 {
+  padding-top: 15px;
+  margin-bottom: 5px;
+  font-size: 19px;
+  font-weight: bold;
 }
 
 p {
@@ -1442,6 +1445,51 @@ b {
 @media (max-width: 370px) {
   .generalTextile {
     height: 2900px;
+  }
+}
+
+.monumentsLi {
+  list-style-type: disc;
+  font-size: 20px;
+}
+
+.generalMonuments {
+  height: 2110px;
+}
+
+@media (max-width: 1340px) {
+  .generalMonuments {
+    height: 2350px;
+  }
+}
+
+@media (max-width: 800px) {
+  .generalMonuments {
+    height: 2500px;
+  }
+}
+
+@media (max-width: 600px) {
+  .generalMonuments {
+    height: 2700px;
+  }
+}
+
+@media (max-width: 500px) {
+  .generalMonuments {
+    height: 2900px;
+  }
+}
+
+@media (max-width: 450px) {
+  .generalMonuments {
+    height: 3200px;
+  }
+}
+
+@media (max-width: 400px) {
+  .generalMonuments {
+    height: 3500px;
   }
 }
 /*# sourceMappingURL=style.css.map */

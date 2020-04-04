@@ -159,7 +159,7 @@ body {
 }
 
 .general {
-  height: 2070px;
+  height: auto;
   background: url("../images/air.jpg") no-repeat;
   background-size: auto 100%;
   background-position: center;
@@ -219,6 +219,7 @@ body {
 
 .callMe {
   text-align: center;
+  padding-bottom: 50px;
 }
 
 .callMe-h {
@@ -481,9 +482,6 @@ a {
 }
 
 @media (max-width: 890px) {
-  .general {
-    height: 2250px;
-  }
   .video-block-v {
     width: 90%;
   }
@@ -578,9 +576,6 @@ a {
 }
 
 @media (max-width: 767px) {
-  .general {
-    height: 2150px;
-  }
   .callMeInput {
     width: 300px;
   }
@@ -652,12 +647,6 @@ a {
   }
 }
 
-@media (max-width: 690px) {
-  .general {
-    height: 2230px;
-  }
-}
-
 @media (max-width: 650px) {
   .callMeInput {
     width: 250px;
@@ -675,9 +664,6 @@ a {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .general {
-    height: 2400px;
-  }
   .callMeInput {
     width: 350px;
   }
@@ -693,12 +679,6 @@ a {
   }
   .footer-right {
     margin-bottom: 20px;
-  }
-}
-
-@media (max-width: 555px) {
-  .general {
-    height: 2300px;
   }
 }
 
@@ -723,12 +703,6 @@ a {
 @media (max-width: 505px) {
   .header-title {
     font-size: 56px;
-  }
-}
-
-@media (max-width: 480px) {
-  .general {
-    height: 2300px;
   }
 }
 
@@ -760,9 +734,6 @@ a {
   .header-address {
     font-size: 20px;
   }
-  .general {
-    height: 2347px;
-  }
 }
 
 @media (max-width: 460px) {
@@ -774,9 +745,6 @@ a {
   }
   .map {
     display: none;
-  }
-  .general {
-    height: 2377px;
   }
   .about-p {
     font-size: 16px;
@@ -791,8 +759,8 @@ a {
     padding-top: 33px;
     margin-bottom: 21px;
   }
-  .general {
-    height: 1900px;
+  .navigation {
+    height: 255px;
   }
 }
 
@@ -802,9 +770,6 @@ a {
   }
   .callMe-textarea {
     height: 70px;
-  }
-  .general {
-    height: 2120px;
   }
   .about-h {
     padding-top: 48px;
@@ -847,31 +812,13 @@ a {
   }
   .navigation {
     margin-top: 15px;
-    height: 222px;
+    height: 255px;
   }
   .flowers {
     display: none;
   }
   .about-h {
     padding-top: 35px;
-  }
-}
-
-@media (min-width: 330px) and (max-width: 460px) {
-  .general {
-    height: 2250px;
-  }
-}
-
-@media (min-width: 360px) and (max-width: 460px) {
-  .general {
-    height: 2150px;
-  }
-}
-
-@media (min-width: 400px) and (max-width: 460px) {
-  .general {
-    height: 2050px;
   }
 }
 
@@ -1045,60 +992,21 @@ a {
   font-size: 20px;
 }
 
-.generalMore {
-  height: 2870px;
-}
-
 .more-video {
   text-align: center;
   margin-top: 20px;
-}
-
-@media (max-width: 1290px) {
-  .generalMore {
-    height: 3000px;
-  }
+  padding-bottom: 50px;
 }
 
 @media (max-width: 1180px) {
-  .generalMore {
-    height: 2870px;
-  }
   .about-p {
     font-size: 20px;
-  }
-}
-
-@media (max-width: 1040px) {
-  .generalMore {
-    height: 3000px;
-  }
-}
-
-@media (max-width: 920px) {
-  .generalMore {
-    height: 3200px;
-  }
-}
-
-@media (max-width: 790px) {
-  .generalMore {
-    height: 3400px;
-  }
-}
-
-@media (max-width: 705px) {
-  .generalMore {
-    height: 3600px;
   }
 }
 
 @media (max-width: 605px) {
   .map {
     display: none;
-  }
-  .generalMore {
-    height: 3800px;
   }
 }
 
@@ -1109,9 +1017,6 @@ a {
 }
 
 @media (max-width: 495px) {
-  .generalMore {
-    height: 3760px;
-  }
   .myLi {
     font-size: 18px;
   }
@@ -1121,42 +1026,18 @@ a {
   .slider {
     display: none;
   }
-  .generalMore {
-    height: 4500px;
-  }
-}
-
-@media (min-width: 350px) and (max-width: 460px) {
-  .generalMore {
-    height: 4050px;
-  }
-}
-
-@media (min-width: 370px) and (max-width: 460px) {
-  .generalMore {
-    height: 3830px;
-  }
-}
-
-@media (min-width: 400px) and (max-width: 460px) {
-  .generalMore {
-    height: 3570px;
-  }
-}
-
-@media (min-width: 440px) and (max-width: 460px) {
-  .generalMore {
-    height: 3300px;
-  }
-}
-
-.generalOrganization {
-  height: 1100px;
 }
 
 .organization-container {
   text-align: center;
   padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+@media (min-width: 1700px) {
+  .generalOrganization {
+    background-size: 100% 100%;
+  }
 }
 
 .h2 {
@@ -1193,10 +1074,6 @@ a {
   left: 36%;
 }
 
-.generealWreaths {
-  height: 3800px;
-}
-
 .wreaths_size {
   text-align: center;
 }
@@ -1205,40 +1082,11 @@ a {
   text-align: center;
 }
 
-@media (max-width: 1410px) {
-  .generealWreaths {
-    height: 4200px;
-  }
-}
-
-@media (max-width: 1195px) {
-  .generealWreaths {
-    height: 4600px;
-  }
-}
-
-@media (max-width: 1070px) {
-  .generealWreaths {
-    height: 4800px;
-  }
-}
-
-@media (max-width: 800px) {
-  .generealWreaths {
-    height: 5000px;
-  }
-}
-
-@media (max-width: 700px) {
-  .generealWreaths {
-    height: 5200px;
-  }
+.wreaths_bottom {
+  margin-bottom: 50px;
 }
 
 @media (max-width: 640px) {
-  .generealWreaths {
-    height: 4600px;
-  }
   .map {
     display: none;
   }
@@ -1253,64 +1101,22 @@ a {
   }
 }
 
-@media (max-width: 570px) {
-  .generealWreaths {
-    height: 5000px;
-  }
-}
-
-@media (max-width: 480px) {
-  .generealWreaths {
-    height: 5300px;
-  }
-}
-
 @media (max-width: 460px) {
   .navigation {
     height: 220px;
   }
 }
 
-@media (min-width: 320px) and (max-width: 446px) {
-  .generealWreaths {
-    height: 6790px;
-  }
-}
-
-@media (min-width: 340px) and (max-width: 446px) {
-  .generealWreaths {
-    height: 6400px;
-  }
-}
-
-@media (min-width: 370px) and (max-width: 446px) {
-  .generealWreaths {
-    height: 6050px;
-  }
-}
-
-@media (min-width: 400px) and (max-width: 446px) {
-  .generealWreaths {
-    height: 5730px;
-  }
-}
-
-@media (min-width: 415px) and (max-width: 446px) {
-  .generealWreaths {
-    height: 5560px;
-  }
-}
-
 .h1 {
   margin-top: 0px;
-  padding-top: 65px;
-  margin-bottom: 40px;
+  padding-top: 55px;
+  margin-bottom: 30px;
   text-align: center;
 }
 
 h1 {
   text-align: center;
-  padding-top: 40px;
+  padding-top: 55px;
 }
 
 h2 {
@@ -1338,25 +1144,20 @@ b {
   font-weight: bold;
 }
 
+@media (max-width: 460px) {
+  .navigation {
+    height: 255px;
+  }
+}
+
+.generalQaa {
+  height: 500px;
+  background-size: 100% 100%;
+}
+
 .coffins_image {
   text-align: center;
   margin: 15px;
-}
-
-.generalCoffins {
-  height: 1575px;
-}
-
-@media (max-width: 1400px) {
-  .generalCoffins {
-    height: 1800px;
-  }
-}
-
-@media (max-width: 890px) {
-  .generalCoffins {
-    height: 1900px;
-  }
 }
 
 @media (max-width: 890px) {
@@ -1365,87 +1166,16 @@ b {
   }
 }
 
-@media (max-width: 510px) {
-  .generalCoffins {
-    height: 2100px;
-  }
-}
-
-@media (max-width: 440px) {
-  .generalCoffins {
-    height: 2500px;
-  }
-}
-
 .crossesCenter {
   text-align: center;
-}
-
-.generalCrosses {
-  height: 3660px;
 }
 
 .gallery3 {
   text-align: -webkit-center;
 }
 
-@media (max-width: 1370px) {
-  .generalCrosses {
-    height: 3900px;
-  }
-}
-
-@media (max-width: 1340px) {
-  .generalCrosses {
-    height: 4300px;
-  }
-}
-
-@media (max-width: 740px) {
-  .generalCrosses {
-    height: 4300px;
-  }
-  .crossesImage {
-    width: 90%;
-  }
-}
-
-@media (max-width: 420px) {
-  .generalCrosses {
-    height: 4500px;
-  }
-}
-
-@media (max-width: 380px) {
-  .generalCrosses {
-    height: 4700px;
-  }
-}
-
 .textileCenter {
   text-align: -webkit-center;
-}
-
-.generalTextile {
-  height: 2380px;
-}
-
-@media (max-width: 1330px) {
-  .generalTextile {
-    height: 2600px;
-  }
-}
-
-@media (max-width: 450px) {
-  .generalTextile {
-    height: 2800px;
-  }
-}
-
-@media (max-width: 370px) {
-  .generalTextile {
-    height: 2900px;
-  }
 }
 
 .monumentsLi {
@@ -1453,43 +1183,52 @@ b {
   font-size: 20px;
 }
 
-.generalMonuments {
-  height: 2110px;
+.fenses_gallery_center {
+  text-align: -webkit-center;
+}
+
+@media (min-width: 1360px) {
+  .generalBenchesTables {
+    background-size: 100% 100%;
+  }
+}
+
+.generalWorks {
+  background-size: auto 100%;
+  height: 3900px;
+}
+
+.images_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.works_image {
+  margin-bottom: 40px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.works_image:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 @media (max-width: 1340px) {
-  .generalMonuments {
-    height: 2350px;
-  }
-}
-
-@media (max-width: 800px) {
-  .generalMonuments {
-    height: 2500px;
-  }
-}
-
-@media (max-width: 600px) {
-  .generalMonuments {
-    height: 2700px;
-  }
-}
-
-@media (max-width: 500px) {
-  .generalMonuments {
-    height: 2900px;
+  .generalWorks {
+    height: auto;
   }
 }
 
 @media (max-width: 450px) {
-  .generalMonuments {
-    height: 3200px;
-  }
-}
-
-@media (max-width: 400px) {
-  .generalMonuments {
-    height: 3500px;
+  .works_image {
+    width: 90%;
   }
 }
 /*# sourceMappingURL=style.css.map */

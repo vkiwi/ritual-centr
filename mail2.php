@@ -9,7 +9,7 @@ $phone = $_POST['user_phone'];
 $message = $_POST['user_message'];
 
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
-//ФОРМА ДЛЯ ОБРАТНОГО ЗВОНКА
+// ФОРМА ДЛЯ НОВОГО ОТЗЫВА
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.mail.ru';  																							// Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
@@ -20,7 +20,7 @@ $mail->Port = 465; // TCP port to connect to / этот порт может от
 
 $mail->setFrom('kv.92@mail.ru'); // от кого будет уходить письмо?
 $mail->addAddress('viktor.kochegarov@gmail.com');     // Кому будет уходить письмо 
-$mail->addAddress('vladimir33.dimitriy@yandex.ru');               // Name is optional
+$mail->addAddress('vladimir33.dimitriy@yandex.rugit');               // Name is optional
 //$mail->addReplyTo('info@example.com', 'Information');
 //$mail->addCC('cc@example.com');
 //$mail->addBCC('bcc@example.com');
@@ -29,12 +29,12 @@ $mail->addAddress('vladimir33.dimitriy@yandex.ru');               // Name is opt
 $mail->isHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = 'Заявка с сайта Ритуал-центр';
-$mail->Body    = '' .$name . ' оставил заявку на обратный звонок, его телефон ' .$phone. '<br>Сообщение: ' .$message;
+$mail->Body    = '' .$name . ' оставил новый отзыв. <br>Сообщение: ' .$message;
 $mail->AltBody = '';
 
 if(!$mail->send()) {
     echo 'Error';
 } else {
-    header('location: thank-you.html');
+    header('location: thank-you2.html');
 }
 ?>

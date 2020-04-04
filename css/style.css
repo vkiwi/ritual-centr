@@ -937,6 +937,7 @@ a {
   min-width: 200px;
   background-color: #ffffff;
   padding: 40px;
+  height: auto;
 }
 
 .modal-dialog__close {

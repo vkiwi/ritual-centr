@@ -11,3 +11,7 @@
 .navigation ul li:focus .submenu {
   display: block;
 }
+
+.submenu li:last-child {
+  margin-bottom: 20px;
+}

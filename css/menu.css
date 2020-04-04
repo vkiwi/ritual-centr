@@ -7,3 +7,7 @@
 .navigation ul li:hover .submenu {
   display: block;
 }
+
+.navigation ul li:focus .submenu {
+  display: block;
+}

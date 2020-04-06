@@ -205,3 +205,17 @@ else if (window.attachEvent){
 	window.attachEvent("onscroll", sc.showHide);
 	window.attachEvent("onload", sc.showHide);
 }
+
+//загрузка карты после докрутки
+$(document).ready(function(){
+  var brif = $('.about');
+  var brifTop = brif.offset().top;
+  $(window).bind('scroll', function(){
+    var windowTop = $(this).scrollTop();
+    if (windowTop >= brifTop) {
+      console.log('докрутили');
+      $('#map').html('<script class="map-m" type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A7cc229803eddb2bd7a76724689b30d2b71dfb2074dd87195a1fd352bd6af04f6&amp;width=100%&amp;height=520&amp;lang=ru_RU&amp;scroll=false"></script>');
+      $(window).unbind('scroll');
+    }
+  });
+});

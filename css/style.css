@@ -354,6 +354,10 @@ a {
   transition: all 0.5s ease;
 }
 
+.scrollTop:hover {
+  background-position: 0 10px;
+}
+
 @media (max-width: 1573px) {
   .footer-left, .footer-right, .footer-socials {
     padding: 70px;

@@ -136,6 +136,7 @@ body {
   z-index: 10;
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
+  text-align: initial;
 }
 
 .submenu-good {
@@ -144,6 +145,7 @@ body {
 
 .navigation-sub {
   margin-top: 10px;
+  margin-left: 7px;
 }
 
 .navigation {
@@ -218,7 +220,7 @@ body {
 .about-h {
   margin-top: 0px;
   padding-top: 65px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -1398,7 +1400,7 @@ b {
 
 .navigation .submenu {
   display: none;
-  background: #b19891;
+  background: #477577;
 }
 
 .navigation ul li:hover .submenu, .navigation ul li:focus .submenu {

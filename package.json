@@ -1,0 +1,27 @@
+{
+  "name": "ritual-centr",
+  "version": "1.0.0",
+  "description": "https://www.ritual-centr33.com/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vkiwi/ritual-centr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vkiwi/ritual-centr/issues"
+  },
+  "homepage": "https://github.com/vkiwi/ritual-centr#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {
+    "uglify-js": "^3.8.1"
+  }
+}

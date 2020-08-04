@@ -77,14 +77,18 @@ body
   // &-last
   //   margin-bottom: 20px
 
+@media (min-width: 840px) and (max-width: 1398px)
+  .navigation-li:last-child
+    margin-top: 20px
+
 .navigation
   font-size: 21px
-  margin-top: 30px
   text-align: center
+  margin-top: 30px
   margin-bottom: 30px
   &-li
     display: inline-block
-    position: relative
+    position: relative   
   &_a
     text-decoration: none
     color: white
@@ -232,8 +236,11 @@ body
     padding: 100px
   &-socials
     padding: 100px
+    text-align: center
     &-a
       margin-right: 20px
+    &-center
+      font-size: 23px
   &-develop
     position: absolute
     bottom: 5px
@@ -288,7 +295,7 @@ a
     padding: 58px 27px
     font-size: 20px
   .footer 
-    height: 310px
+    height: 337px
     
 
 @media (max-width: 1132px)
@@ -304,18 +311,18 @@ a
     font-size: 19px
 
 @media (max-width: 1026px)
-  .footer-left, .footer-right, .footer-socials 
+  .footer-left, .footer-right, .footer-socials, .footer-socials-center
     padding: 44px 23px
     font-size: 20px
   .footer 
-    height: 288px
+    height: 305px
 
 @media (max-width: 1008px)
   .container
     width: 95%
 
 @media (max-width: 1000px)
-  .footer-left, .footer-right, .footer-socials 
+  .footer-left, .footer-right, .footer-socials, .footer-socials-center
     padding: 29px 18px
     font-size: 19px
   .footer 
@@ -598,3 +605,6 @@ a
 #menu
   display: inline
 
+@media (max-width: 890px)
+  .footer-socials-center
+    display: none
